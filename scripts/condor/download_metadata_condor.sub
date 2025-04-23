@@ -1,0 +1,26 @@
+# 1 – Décrit le répertoire de travail du job. 
+InitialDir     = /projects/biofid/Nicolas/bioFM/
+
+request_cpus     = 3
+request_memory   = 25GB
+MY.MaxThreads = 130
+accounting_group = LongJob.Weekly
+MY.Limit = (10000 / $(MY.MaxThreads)) * $(request_cpus)
+concurrency_limits_expr = StrCat(MY.Owner,"_limit:", $(MY.Limit))
+
+# 2 – Décrit le programme et arguments à instancier.
+executable       = /workspaces/biocomp/bourriez/condor/download_metadata_wrapper.sh
+arguments        = $(request_cpus) $(experiment_id)
+
+# 3 – Décrit les fichiers de sortie du job. 
+output           = /projects/biofid/Nicolas/bioFM/logcondor/$(Cluster)-$(Process)_$(experiment_id).output
+error            = /projects/biofid/Nicolas/bioFM/logcondor/$(Cluster)-$(Process)_$(experiment_id).error
+log              = /projects/biofid/Nicolas/bioFM/logcondor/$(Cluster)-$(Process)_$(experiment_id).log
+stream_output    = True
+stream_error     = True
+
+notify_user      = bourriez@bio.ens.psl.eu
+notification     = Complete
+
+# 4 – Insère ce job au sein de la file d’attente !
+queue experiment_id from /projects/biofid/Nicolas/bioFM/data/IDR/tissue/experiment_id_homo_100k.csv

@@ -1,0 +1,18 @@
+# Dirs
+__pycache__/
+/logcondor/**
+/data/IDR/cell/images
+/data/IDR/tissue/images
+
+
+# Files type
+__init__.py
+*.pkl
+**/*.pkl
+*.ipynb
+*.npz
+*.json
+._*
+*.png
+*.jpeg
+*.log

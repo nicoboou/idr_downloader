@@ -1,0 +1,12 @@
+# Run on INTERACTIVE mode
+srun --nodes=1 --time=02:00:00 -p gpu_inter --pty /bin/bash && export PATH=/opt/conda/bin:$PATH
+python3 main.py
+
+# See queue
+squeue
+
+# Run batch
+sbatch <file.batch>
+
+# To transfer files back to local machine (run LOCALLY)
+rsync -e ssh -ravhzP --exclude 'biodino/data/*' bourriezn@chome.metz.supelec.fr:~/biodino .

@@ -1,0 +1,51 @@
+Select,sample_type,study_type,imaging_method,metadata_file,experiment_id,total_nb_images
+False,tissue,time-lapse imaging,SPIM,metadata_experiment_2152.json,project_2152,1
+False,tissue,microscopy assay,multi-photon microscopy,metadata_experiment_1201.json,project_1201,2
+False,tissue,imaging method,SPIM,metadata_experiment_1701.json,project_1701,1
+False,tissue,image cytometry,imaging mass cytometry,metadata_experiment_701.json,project_701,3
+False,tissue,imaging method,SPIM,metadata_experiment_854.json,project_854,2
+False,tissue,electron microscopy volume map,unsupervised transmission electron microscopy,metadata_experiment_1051.json,project_1051,2
+False,tissue,imaging method,SPIM,metadata_experiment_853.json,project_853,4
+False,tissue,imaging method,SPIM,metadata_experiment_851.json,project_851,6
+False,tissue,imaging method,SPIM,metadata_experiment_852.json,project_852,5
+False,tissue,time-lapse imaging,SPIM,metadata_experiment_552.json,project_552,5
+False,tissue,electron microscopy volume map,Transmission electron microscopy,metadata_experiment_504.json,project_504,5
+False,tissue,time-lapse imaging,SPIM,metadata_experiment_1651.json,project_1651,5
+False,tissue,microscopy assay,Multi-fluorescence high-resolution episcopic microscopy (MF-HREM),metadata_experiment_1202.json,project_1202,7
+False,tissue,time-lapse imaging,light sheet fluorescence microscopy,metadata_experiment_353.json,project_353,12
+False,tissue,time-lapse imaging,light sheet fluorescence microscopy,metadata_experiment_352.json,project_352,10
+False,tissue,histology,light microscopy,metadata_experiment_1606.json,project_1606,18
+False,tissue,time-lapse imaging,SPIM,metadata_experiment_502.json,project_502,16
+False,tissue,in-situ hybridization assay,bright-field microscopy,metadata_experiment_2001.json,project_2001,20
+False,tissue,scanned image,bright-field microscopy,metadata_experiment_2103.json,project_2103,32
+False,tissue,imaging method,two-photon laser scanning microscopy,metadata_experiment_951.json,project_951,20
+False,tissue,time-lapse imaging,SPIM,metadata_experiment_2101.json,project_2101,20
+False,tissue,compound library screen,bright-field microscopy,metadata_experiment_2451.json,screen_2451,176
+False,tissue,electron microscopy volume map,scanning-transmission electron microscopy,metadata_experiment_2451.json,project_2451,10
+False,tissue,time-lapse imaging,SPIM,metadata_experiment_2601.json,project_2601,18
+False,tissue,time-lapse imaging,light sheet fluorescence microscopy,metadata_experiment_351.json,project_351,74
+False,tissue,microscopy assay,array-scan confocal microscopy,metadata_experiment_1103.json,project_1103,62
+False,tissue,electron microscopy volume map,scanning-transmission electron microscopy,metadata_experiment_2053.json,project_2053,64
+False,tissue,time-lapse imaging,SPIM,metadata_experiment_1101.json,project_1101,149
+False,tissue,histology,bright-field microscopy,metadata_experiment_2501.json,project_2501,68
+False,tissue,time-lapse imaging,two-photon laser scanning microscopy,metadata_experiment_1903.json,project_1903,110
+False,tissue,morphogenesis,array-scan confocal microscopy,metadata_experiment_2201.json,project_2201,126
+False,tissue,electron microscopy volume map,bright-field microscopy,metadata_experiment_2651.json,project_2651,67
+False,tissue,spindle assembly,confocal microscopy,metadata_experiment_405.json,project_405,373
+False,tissue,histology,bright-field microscopy,metadata_experiment_1251.json,project_1251,336
+False,tissue,image cytometry,imaging mass cytometry,metadata_experiment_1302.json,project_1302,200
+False,tissue,histology,bright-field microscopy,metadata_experiment_1002.json,project_1002,193
+False,tissue,scanned image,bright-field microscopy,metadata_experiment_2102.json,project_2102,199
+False,tissue,time-lapse imaging,multi-photon microscopy,metadata_experiment_301.json,project_301,227
+False,tissue,in-situ hybridization assay,fluorescence microscopy,metadata_experiment_201.json,project_201,458
+False,tissue,DNA sequencing,confocal microscopy,metadata_experiment_2052.json,project_2052,284
+False,tissue,phenotype,macroscopy,metadata_experiment_2551.json,project_2551,317
+False,tissue,microscopy assay,array-scan confocal microscopy,metadata_experiment_1102.json,project_1102,350
+False,tissue,histology,bright-field microscopy,metadata_experiment_402.json,project_402,400
+False,tissue,histology,bright-field microscopy,metadata_experiment_2351.json,project_2351,462
+False,tissue,histology,bright-field microscopy,metadata_experiment_101.json,project_101,899
+False,tissue,in-situ hybridization assay,fluorescence microscopy,metadata_experiment_2151.json,project_2151,996
+False,tissue,histology,OCT,metadata_experiment_1605.json,project_1605,1254
+False,tissue,in-situ hybridization assay,dark-field microscopy,metadata_experiment_1104.json,project_1104,4554
+False,tissue,histology,macroscopy,metadata_experiment_2401.json,project_2401,5135
+False,tissue,protein localization,bright-field microscopy,metadata_experiment_501.json,project_501,5935837

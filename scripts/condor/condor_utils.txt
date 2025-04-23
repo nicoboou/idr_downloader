@@ -1,0 +1,14 @@
+# General info about each worker-node on Bioclust
+condor_status -compact
+
+# Concurrency Limit condor_concurrency_limit_calculator
+condor_concurrency_limit_calculator -c 4 -m 10G
+
+# HOLD Job
+condor_hold $ClusterID.$JOBID
+
+# REMOVE JOB
+condor_rm $ClusterID.$JOBID
+
+# Interactive session
+condor_submit -interactive -append 'request_memory=8GB' -append 'request_cpus=4' -append 'accounting_group=ShortJob'
